@@ -118,3 +118,50 @@ if ( p == num ){
 else{
     alert('Число не являється піліндримом')
 }
+
+// дз №2-2
+
+let purchase = +prompt('Введіть сумму покупки')
+let price;
+
+if (purchase < 200) {
+    price = 200
+}
+else if (purchase >= 200 && purchase < 300 ){
+    price = purchase - (purchase * 0.03) 
+}
+
+else if (purchase >= 300 && purchase < 500 ){
+    price = purchase - (purchase * 0.05) 
+}
+
+else if (purchase >= 500 ){
+    price = purchase - (purchase * 0.07)
+}
+
+alert(`Сума до оплати ' ${price}`)
+
+// дз №2-3
+
+let numbers = 0
+let positive = 0
+let negative = 0
+let zero = 0
+let pair = 0
+
+for (i = 1; i <= 10; i++ ){
+    numbers = +prompt(`Введіть число №${i}`);
+    if (numbers > 0){
+    positive +=1;
+    }
+    if (numbers < 0){
+    negative +=1
+    }
+   if (numbers == 0){
+    zero +=1
+    } 
+    if (numbers % 2 == 0){
+    pair +=1
+    }
+}
+alert(`Було введено ${positive} додатніх, ${negative} від'ємних, ${zero} нулів. Із них ${pair} парних чисел`)
