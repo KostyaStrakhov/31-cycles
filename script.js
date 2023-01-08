@@ -32,34 +32,34 @@ else if (key % 1 !== 0){
 let symb = 'Спецсимвол на введеній клавіші це -'
 
 if (key == 0){
-    alert(`${symb}')'`);
+    alert(`${symb} ' ) '`);
 }
 else if(key == 1){
-    alert(`${symb}'!'`);
+    alert(`${symb} ' ! '`);
 }
 else if (key == 2){
-    alert(`${symb}'@'`);
+    alert(`${symb} ' @ '`);
 }
 else if (key == 3){
-    alert(`${symb}'#'`);
+    alert(`${symb} ' # '`);
 }
 else if (key == 4){
-    alert(`${symb}'$'`);
+    alert(`${symb} ' $ '`);
 }
 else if (key == 5){
-    alert(`${symb}'%'`);
+    alert(`${symb} ' % '`);
 }
 else if (key == 6){
-    alert(`${symb}'^'`);
+    alert(`${symb} ' ^ '`);
 }
 else if (key == 7){
-    alert(`${symb}'&'`);
+    alert(`${symb} ' & '`);
 }
 else if (key == 8){
-    alert(`${symb}''*'`);
+    alert(`${symb} ' * '`);
 }
 else if (key == 9){
-    alert(`${symb}'('`);
+    alert(`${symb} ' ( '`);
 }
 
 // ДЗ #1-3
