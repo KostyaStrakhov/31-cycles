@@ -76,8 +76,8 @@ alert(`Сумма чисел діапазону = ${sum}`);
 
 // ДЗ #1-4
 
-let numb1 = +prompt("Введіть перше число діапазону")
-let numb2 = +prompt("Введіть друге число діапазону")
+let numb1 = +prompt("Введіть перше число")
+let numb2 = +prompt("Введіть друге число")
 let gcd
 
 for (let i = 0; i < numb1; i++) {
