@@ -139,7 +139,7 @@ else if (purchase >= 500 ){
     price = purchase - (purchase * 0.07)
 }
 
-alert(`Сума до оплати ' ${price}`)
+alert(`Сума до оплати  ${price}`)
 
 // дз №2-3
 
